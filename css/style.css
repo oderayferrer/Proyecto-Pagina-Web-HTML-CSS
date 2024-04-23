@@ -3,9 +3,13 @@
     padding: 0px;
     font-family:Arial, Helvetica, sans-serif arial;
 }
+body{
+    background: #ededed;
+}
 .enviarDerecha{
     margin-left: auto;
 }
+/* navegador */
 #navegador{
     background: #3b3b3b;
     color: #ffff;
@@ -32,3 +36,44 @@ nav li:hover{
     background: #c9c9c9;
     cursor: pointer;
 }
+/* navegador */
+/* contenedor*/
+
+#contenedor{
+    background: #ffffff;
+    max-width: 1100px;
+    
+    margin: auto;
+    margin-bottom:25px ;
+    margin-top: 25px;
+    height: 500px;
+    display: flex;
+}
+
+#contenedorInterno{
+    flex-grow: 1;
+    
+    padding: 10px;
+}
+
+#contenedor aside{
+    
+    background: blue;
+    padding: 10px ;
+}
+.categoria{
+    display: flex;
+    background: #f1f1f1;
+    padding: 10px;
+    border-bottom: solid 1.5px #B5b5b5;
+}
+.articuloRelacionado{
+    width: 280px;
+    margin: auto;
+    margin-bottom: 5px;
+    height: 150px;
+    background: red;
+    
+}
+
+/* contenedor*/
