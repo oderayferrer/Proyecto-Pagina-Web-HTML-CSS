@@ -142,7 +142,7 @@ footer{
         align-items: flex-start;
     }
     .articuloRelacionado{
-        width: 47%;
+        width: 100%;
 
     }
     nav{
@@ -156,8 +156,38 @@ footer{
 
 /* ipad */
 /* movil */
-@media (max-width:375px){
+@media (max-width:380px){
+    *{
+        max-width: 100%;
+    }
+    ul{
+        max-width: 95%;
+        flex-wrap: wrap-reverse;
+    }
+    
+    .logo{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    nav li.menu{
+        padding-bottom: 25px;
+        margin-left: 24px;
+    }
+    footer{
+        padding-bottom: 0px;
+        flex-direction: column;
+        text-align: center;
+        font-size: 16px ;
+        padding-bottom: 10px;
 
+    }
+    section#footer{
+        height: 100%;
+    }
+    
+    .articuloRelacionado{
+        width: 100%;
+    }
 }
 
 
