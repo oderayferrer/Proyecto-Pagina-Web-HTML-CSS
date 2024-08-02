@@ -5,4 +5,4 @@ Este proyecto es un modelo de pagina web utilizando HTML y CSS, algunas funciona
 
 ## Certificado 
 
-![Certificado del curso realizado](img/Certificado.pdf)
+[Certificado del curso realizado](img/Certificado.pdf)
